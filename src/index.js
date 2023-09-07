@@ -1,4 +1,4 @@
 import '@/styles/index.scss'
-import { Start } from '@/features/periodictable'
+import { FillPeriodicTable } from '@/features/periodic-table'
 
-Start();
+FillPeriodicTable();

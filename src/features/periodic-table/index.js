@@ -1,0 +1,1 @@
+export {FillPeriodicTable, values} from "./lib"

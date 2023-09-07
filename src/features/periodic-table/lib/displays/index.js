@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { table } from "@/features/periodictable/data/elements";
+import { table } from "@/features/periodic-table/data/elements";
 import { CSS3DObject } from 'three/addons/renderers/CSS3DRenderer.js';
 
 export const fillAsTable = (values) => {
