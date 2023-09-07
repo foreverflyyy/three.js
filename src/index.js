@@ -1,8 +1,4 @@
 import '@/styles/index.scss'
-import { setDefaultSettings, getEllipse, getCube } from "@/shapes";
+import Start from "@/shared/lib";
 
-const sphere = getEllipse();
-const cube = getCube();
-
-const render = setDefaultSettings(cube);
-render();
+Start();
