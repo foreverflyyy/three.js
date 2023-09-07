@@ -1,4 +1,4 @@
 import '@/styles/index.scss'
-import Start from "@/shared/lib";
+import { Start } from '@/features/periodictable'
 
 Start();
