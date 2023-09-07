@@ -1,4 +1,8 @@
-import { example } from '@/js/example'
 import '@/styles/index.scss'
+import { setDefaultSettings, getEllipse, getCube } from "@/shapes";
 
-console.log("good")
+const sphere = getEllipse();
+const cube = getCube();
+
+const render = setDefaultSettings(cube);
+render();
